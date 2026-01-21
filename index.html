@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Media Ruan</title>
+
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.icon-box a {
+    font-size: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.icon-box a:hover {
+    transform: scale(1.2);
+}
+
+.whatsapp { color: #25D366; }
+.instagram { color: #E1306C; }
+.tiktok { color: #ffffff; }
+
+.notice {
+    font-size: 14px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.browser-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #25D366;
+    color: #111;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- WhatsApp -->
+    <div class="icon-box">
+        <a href="https://api.whatsapp.com/send?phone=6283857809571"
+           target="_blank"
+           class="whatsapp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Instagram -->
+    <div class="icon-box">
+        <a href="https://www.instagram.com/ruanprimogem?igsh=OWIzd2k3OW1wZ3Aw"
+           target="_blank"
+           class="instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+
+    <!-- TikTok -->
+    <div class="icon-box">
+        <a href="https://www.tiktok.com/@ruan.genshin?_r=1&_t=ZS-93FqiRctByC"
+           target="_blank"
+           class="tiktok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+
+</div>
+
+<div class="notice">
+    ⚠️ Jika WhatsApp tidak terbuka di preview Acode,<br>
+    klik tombol di bawah ini
+</div>
+
+<a class="browser-btn"
+   href="https://api.whatsapp.com/send?phone=6283857809571"
+   target="_blank">
+   Buka WhatsApp di Browser
+</a>
+
+</body>
+</html>
